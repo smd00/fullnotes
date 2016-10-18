@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Mallorca Demo App</string>
+    <string name="camera">Cámara</string>
+    <string name="camera_help">Este modulo permite sacar fotos a traves de una cámara personalizada flexible.</string>
+    <string name="dialogs">Notificaciones y Dialogos</string>
+    <string name="gps">GPS</string>
+    <string name="dialogs_help">Este modulo permite mandar mensajes a los usuarios.</string>
+    <string name="gps_help">Este modulo permite rastrear la ubicación, velocidad y nivel de bateria del dispositivo.</string>
+    <string name="login_help">Este modulo permite iniciar sesion conectando a la base de datos local del dispositivo o directamente con un servidor externo.</string>
+    <string name="main_title">Selecciona un demo para empezar</string>
+    <string name="multi_threading">Multithreading</string>
+    <string name="multi_threading_help">Este modulo permite ejecutar multiples procesos en segundo plano.</string>
+    <string name="tables">Tablas y otros controles</string>
+    <string name="tables_help">Este modulo permite presentar datos en diferentes formatos.</string>
+</resources>

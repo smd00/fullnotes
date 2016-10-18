@@ -1,0 +1,56 @@
+<resources>
+    <!--General-->
+    <string name="app_name" translatable="false">Full Notes</string>
+    <string name="main_title">Full Notes App</string>
+    <string name="footer">&#169; Daniel Montoya</string>
+    <string name="more">More</string>
+
+    <!--Home Screen-->
+    <string name="new_note">New Note</string>
+    <string name="view_notes">View Notes</string>
+    <string name="demos">Demos</string>
+    <string name="info">Info</string>
+
+    <!--New Note Module-->
+    <string name="current_location">Coordinates:</string>
+    <string name="title">Title</string>
+    <string name="note">Note</string>
+    <string name="save">Save</string>
+
+    <!--Login Module-->
+    <string name="login" translatable="false">Login</string>
+    <string name="logout">Logout</string>
+    <string name="login_help">This module allows you to login through the local SQLite database or a web APi via HTTP command</string>
+    <!--Screen-->
+    <string name="user_login">User Login</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="pin_login">PIN Login</string>
+    <string name="local_login">Local Login</string>
+    <string name="server_login">Server Login</string>
+        <!--<string name="create_new_account">Create new account</string>-->
+    <!--<string name="signup">Sign up</string>-->
+    <!--<string name="forgot_password">Forgot my password</string>-->
+    <string name="welcome">Welcome</string>
+
+    <!--GPS Module-->
+    <string name="gps" translatable="false">GPS</string>
+    <string name="gps_help">This module allows you to monitor the device location, speed and battery levels.</string>
+
+    <!--Camera Module-->
+    <string name="camera">Camera</string>
+    <string name="camera_help">This module allows you to take a photo with a custom camera. This means you get to choose where to save the image taken and what to do with it.
+        You could just want to take the photo and send it through http instead of saving it to the device.</string>
+
+    <!--Tables Module-->
+    <string name="tables">Tables and Pickers</string>
+    <string name="tables_help">This module allows you to display data in different formats.</string>
+
+    <!--Dialog Module-->
+    <string name="dialogs">Dialogs and Notifications</string>
+    <string name="dialogs_help">This module allows you to show dialogs and notifications to your users.</string>
+
+    <!--Multithreading Module-->
+    <string name="multi_threading">Multithreading</string>
+    <string name="multi_threading_help">This module allows you to have multiple threads running simultaneously on the background.</string>
+</resources>

@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    style="@style/linearLayout_view_main"
+    android:layout_marginStart="10dp"
+    android:layout_marginEnd="10dp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/new_note_layout_live_data_linearLayout"
+        android:layout_marginTop="2dp"
+        android:weightSum="1">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Location Unkown"
+            android:id="@+id/new_note_layout_live_location"
+            android:textStyle="bold"
+            android:layout_weight="0.8"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:id="@+id/new_note_layout_live_speed"
+            android:textAlignment="textEnd"
+            android:layout_weight="0.2"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:gravity="end">
+        <Button
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:text="X"
+            android:onClick="new_note_layout_exit_button_click"
+            android:textStyle="bold"
+            android:background="@color/red"
+            android:textColor="@color/white"
+            android:textAlignment="center"
+            />
+    </LinearLayout>
+
+    <TextView
+        style="@style/textView_header"
+        android:text="@string/new_note" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="10dp"
+        android:weightSum="1">
+        <ImageButton
+            android:src="@drawable/camera"
+            style="@style/image_button_new_note_screen"
+            android:layout_weight="0.3"/>
+        <ImageButton
+            android:src="@drawable/location_on"
+            style="@style/image_button_new_note_screen"
+            android:layout_weight="0.3"/>
+        <ImageButton
+            android:src="@drawable/info"
+            style="@style/image_button_new_note_screen"
+            android:layout_weight="0.4"/>
+    </LinearLayout>
+
+    <ScrollView
+        style="@style/scrollView_new_note">
+        <LinearLayout
+            style="@style/linearLayout_view_main">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/title"
+                android:id="@+id/new_note_layout_title_textView" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/new_note_layout_title_editText"
+                android:layout_marginBottom="10dp"
+                android:singleLine="true"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/note"
+                android:id="@+id/new_note_layout_note_textView" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/new_note_layout_note_editText"
+
+                android:inputType="textMultiLine"
+                android:gravity="top|left"
+                android:lines="8"
+                android:minLines="1"
+                android:scrollbars="vertical"
+                />
+        </LinearLayout>
+    </ScrollView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="bottom"
+        android:layout_marginBottom="10dp">
+        <Button
+            style="@style/button_save_new_note"
+            android:text="@string/save"
+            android:id="@+id/new_note_layout_save_button"
+            android:onClick="new_note_layout_save_button_click"
+            />
+    </LinearLayout>
+
+</LinearLayout>

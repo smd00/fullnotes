@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/linearLayout_view_margin"
+    tools:context="com.brighteyetea.fullnotes.MainActivity">
+
+    <TextView
+        style="@style/textView_header"
+        android:text="@string/app_name" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_marginBottom="50dp">
+
+        <Button
+            style="@style/button_home_screen"
+            android:text="@string/new_note"
+            android:id="@+id/activity_main_new_note_button"
+            android:onClick="activity_main_new_note_button_click"/>
+
+        <Button
+            style="@style/button_home_screen"
+            android:text="@string/view_notes"
+            android:id="@+id/activity_main_view_notes_button"
+            android:onClick="activity_main_view_notes_button_click"/>
+
+        <Button
+            style="@style/button_home_screen"
+            android:text="@string/demos"
+            android:id="@+id/activity_main_demos_button"
+            android:onClick="activity_main_demos_button_click"/>
+
+        <Button
+            style="@style/button_home_screen"
+            android:text="@string/info"
+            android:id="@+id/activity_main_info_button"
+            android:onClick="activity_main_info_button_click"/>
+
+    </LinearLayout>
+
+    <TextView
+        style="@style/textView_footer"
+        android:id="@+id/login_layout_footer"/>
+</LinearLayout>

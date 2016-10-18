@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/linearLayout_view_main">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/view_notes_layout_live_data_linearLayout"
+        android:layout_marginTop="2dp"
+        android:weightSum="1">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Current location: (0.0000, 0.0000)"
+            android:id="@+id/view_notes_layout_live_location"
+            android:textStyle="bold"
+            android:layout_marginStart="2dp"
+            android:layout_weight="0.8"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0.00 km/h"
+            android:id="@+id/view_notes_layout_live_speed"
+            android:textAlignment="textEnd"
+            android:layout_marginEnd="2dp"
+            android:layout_weight="0.2"/>
+    </LinearLayout>
+
+    <TextView
+        style="@style/textView_header"
+        android:text="@string/view_notes" />
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/view_notes_layout_listView"/>
+
+</LinearLayout>

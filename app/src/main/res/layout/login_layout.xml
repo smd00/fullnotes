@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/linearLayout_view_main">
+
+    <LinearLayout
+        style="@style/linearLayout_view_margin"
+        android:id="@+id/login_layout_linearLayout"
+        android:gravity="center">
+
+        <TextView
+            style="@style/textView_header"
+            android:layout_marginTop="60dp"
+            android:text="@string/user_login"
+            android:id="@+id/login_layout_header_textView" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/username"
+            android:id="@+id/login_layout_username_title_textView" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/login_layout_username_editText"
+            android:textAlignment="center"
+            android:lines="1"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:maxLength="255"
+            android:nextFocusUp="@+id/login_layout_pwd_editText"
+            android:gravity="top"
+            android:layout_gravity="center_horizontal"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/password"
+            android:id="@+id/login_layout_password_title_textView"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="8dp"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/login_layout_pwd_editText"
+            android:inputType="textPassword"
+            android:ems="10"
+            android:textAlignment="center"
+            android:lines="1"
+            android:maxLines="1"
+            android:imeOptions="actionDone"
+            android:singleLine="true"
+            android:nextFocusDown="@+id/login_layout_pin_button"
+            android:gravity="top"
+            android:textSize="20sp"
+            />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/pin_login"
+            android:id="@+id/login_layout_pin_button"
+            android:textAlignment="center"
+            android:onClick="login_layout_pin_button_click"
+            android:background="@color/invisible"
+            android:textColor="@color/orange"
+            android:textSize="18sp"
+            android:layout_marginTop="16dp"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/local_login"
+            android:id="@+id/login_layout_local_button"
+            android:textAlignment="center"
+            android:onClick="login_layout_local_button_click"
+            android:background="@color/green2"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:layout_marginTop="16dp"/>
+
+        <Button
+            android:layout_marginTop="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/server_login"
+            android:id="@+id/login_layout_server_button"
+            android:onClick="login_layout_server_button_click"
+            android:background="@color/blue"
+            android:textColor="@color/white"
+            android:textAlignment="center"
+            android:textSize="18sp"
+            android:layout_gravity="center_horizontal" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:text="@string/footer"
+            android:id="@+id/login_layout_footer"
+            android:textAlignment="center"
+            android:gravity="bottom"/>
+    </LinearLayout>
+
+    <!--<LinearLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:orientation="vertical"-->
+        <!--android:visibility="gone"-->
+        <!--android:id="@+id/account_loggedin_linearLayout"-->
+        <!--&gt;-->
+        <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text=""-->
+            <!--android:id="@+id/welcome_textView"-->
+            <!--android:layout_gravity="center_horizontal" />-->
+        <!--<Button-->
+            <!--style="@style/button"-->
+            <!--android:id="@+id/logout_button"-->
+            <!--android:text="@string/logout"/>-->
+    <!--</LinearLayout>-->
+</LinearLayout>

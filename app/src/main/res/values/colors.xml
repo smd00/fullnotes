@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <!--Main Colors-->
+    <color name="blue">#003c95</color>
+    <color name="darkBlue">#0000a0</color>
+    <color name="lightBlue">#0090ff</color>
+    <color name="red">#ff0d00</color>
+    <color name="green">#008000</color>
+    <color name="green2">#427c1e</color>
+    <color name="darkGreen">#216921</color>
+    <color name="orange">#ff8400</color>
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="turquoise">#00938e</color>
+    <!--Grays-->
+    <color name="darkGray">#383838</color>
+    <color name="lightGray">#cccccc</color>
+    <color name="sog_background_gray">#75dfdfdf</color>
+    <color name="sog_tnc_gray">#cccccc</color>
+    <color name="sog_det_gray">#555555</color>
+    <!--Alpha Colors-->
+    <color name="alphaBlue">#83003c95</color>
+    <color name="alphaLightBlue">#830090ff</color>
+    <color name="alphaRed">#83ff0d00</color>
+    <color name="alphaGreen">#83008000</color>
+    <color name="alphaOrange">#83ff8400</color>
+    <!--Invisible-->
+    <color name="invisible">#00ffffff</color>
+</resources>

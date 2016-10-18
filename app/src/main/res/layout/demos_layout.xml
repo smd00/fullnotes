@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/linearLayout_view_margin"
+    tools:context="com.brighteyetea.fullnotes.MainActivity">
+
+    <!--Layout Title-->
+    <TextView
+        style="@style/textView_header"
+        android:text="@string/demos"
+        android:id="@+id/main_title_textView"/>
+    <!--Layout main ScrollView (activity_main_scrollView)-->
+    <ScrollView
+        style="@style/scrollView_view"
+        android:id="@+id/activity_main_scrollView">
+        <!--ScrollView can only have one child: LinearLayout (activity_main_linearLayout)-->
+        <LinearLayout
+            style="@style/linearLayout_view_main"
+            android:id="@+id/activity_main_linearLayout">
+
+            <!--Login demo info/button LinearLayout (activity_main_login_linearLayout)-->
+            <LinearLayout
+                style="@style/linearLayout_demos_view"
+                android:id="@+id/activity_main_login_linearLayout">
+                <!--Login demo Button (activity_main_login_button)-->
+                <Button
+                    style="@style/button"
+                    android:text="@string/login"
+                    android:id="@+id/activity_main_login_button"
+                    android:onClick="activity_main_login_button_click"/>
+                <!--Login demo info TextView (activity_main_login_help_textView)-->
+                <TextView
+                    style="@style/textView_info"
+                    android:text="@string/login_help"
+                    android:id="@+id/activity_main_login_help_textView" />
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/linearLayout_demos_view"
+                android:id="@+id/activity_main_gps_linearLayout">
+                <Button
+                    style="@style/button"
+                    android:text="@string/gps"
+                    android:id="@+id/activity_main_gps_button" />
+                <TextView
+                    style="@style/textView_info"
+                    android:text="@string/gps_help"
+                    android:id="@+id/activity_main_gps_help_textView" />
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/linearLayout_demos_view"
+                android:id="@+id/activity_main_camera_linearLayout">
+                <Button
+                    style="@style/button"
+                    android:text="@string/camera"
+                    android:id="@+id/activity_main_camera_button" />
+                <TextView
+                    style="@style/textView_info"
+                    android:text="@string/camera_help"
+                    android:id="@+id/activity_main_camera_help_textView" />
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/linearLayout_demos_view"
+                android:id="@+id/activity_main_tables_linearLayout">
+                <Button
+                    style="@style/button"
+                    android:text="@string/tables"
+                    android:id="@+id/activity_main_tables_button" />
+                <TextView
+                    style="@style/textView_info"
+                    android:text="@string/tables_help"
+                    android:id="@+id/activity_main_tables_help_textView" />
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/linearLayout_demos_view"
+                android:id="@+id/activity_main_dialogs_linearLayout">
+                <Button
+                    style="@style/button"
+                    android:text="@string/dialogs"
+                    android:id="@+id/activity_main_dialogs_button" />
+                <TextView
+                    style="@style/textView_info"
+                    android:text="@string/dialogs_help"
+                    android:id="@+id/activity_main_dialogs_help_textView" />
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/linearLayout_demos_view"
+                android:id="@+id/activity_main_multi_threading_linearLayout">
+                <Button
+                    style="@style/button"
+                    android:text="@string/multi_threading"
+                    android:id="@+id/activity_main_multi_threading_button" />
+                <TextView
+                    style="@style/textView_info"
+                    android:text="@string/multi_threading_help"
+                    android:id="@+id/activity_main_multi_threading_help_textView" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
