@@ -1,6 +1,6 @@
 # fullnotes
 
-Full Notes is an Android application developed as a Java code database that includes some commonly used modules.
+Full Notes is an Android application developed as a Java codebase that includes some commonly used modules.
 
 It currently includes:
 
@@ -13,3 +13,5 @@ In development:
 
 - Custom camera module
 - Notifications
+
+(C) 2016 Daniel Montoya
