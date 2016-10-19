@@ -14,4 +14,4 @@ In development:
 - Custom camera module
 - Notifications
 
-(C) 2016 Daniel Montoya
+(C) Daniel Montoya
