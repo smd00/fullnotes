@@ -42,6 +42,8 @@ public class MainActivity extends AppCompatActivity implements LocationListener 
 
     public static final String TAG = "MainActivity";
 
+//    smd00
+
     //SQLite Database
     SQLiteDatabase myDB = null;
 

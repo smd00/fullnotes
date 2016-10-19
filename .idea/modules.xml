@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/FullNotes.iml" filepath="$PROJECT_DIR$/FullNotes.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/fullnotes.iml" filepath="$PROJECT_DIR$/fullnotes.iml" />
     </modules>
   </component>
 </project>
